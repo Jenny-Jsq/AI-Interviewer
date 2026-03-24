@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "assistant_message": { "type": "string" },
+    "next_stage": { "type": "string" },
+    "interview_status": {
+      "type": "string",
+      "enum": ["ongoing", "finished"]
+    }
+  },
+  "required": ["assistant_message", "interview_status"]
+}
