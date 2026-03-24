@@ -1,0 +1,26 @@
+[
+  {
+    "program_id": "hec-mba",
+    "school_id": "hec-paris",
+    "program_name": "MBA",
+    "degree_type": "Full-time",
+    "duration_months": 16,
+    "highlights": ["Leadership curriculum", "Strong European network"]
+  },
+  {
+    "program_id": "hec-mim",
+    "school_id": "hec-paris",
+    "program_name": "Master in Management",
+    "degree_type": "Pre-experience",
+    "duration_months": 24,
+    "highlights": ["CEMS option", "International exchanges"]
+  },
+  {
+    "program_id": "insead-mba",
+    "school_id": "insead",
+    "program_name": "MBA",
+    "degree_type": "Accelerated",
+    "duration_months": 10,
+    "highlights": ["Global campuses", "Intensive format"]
+  }
+]

@@ -1,0 +1,41 @@
+export interface School {
+  school_id: string;
+  school_name: string;
+  country: string;
+  ranking_note: string;
+  general_values: string[];
+  interview_tone: string[];
+  example_question_style: string[];
+}
+
+export interface Program {
+  program_id: string;
+  school_id: string;
+  program_name: string;
+  degree_type: string;
+  duration_months: number;
+  highlights: string[];
+}
+
+export interface InterviewSessionInput {
+  schoolId: string;
+  programId: string;
+  resumeText?: string;
+  coverLetterText?: string;
+}
+
+export interface ChatMessage {
+  id: string;
+  role: "user" | "assistant";
+  content: string;
+  timestamp: number;
+}
+
+export interface InterviewFeedback {
+  summary: string;
+  takeaways: Array<{
+    title: string;
+    detail: string;
+    action: string;
+  }>;
+}
