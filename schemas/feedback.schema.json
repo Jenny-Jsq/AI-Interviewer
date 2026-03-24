@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "overall_assessment": { "type": "string" },
+    "takeaways": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "improved_answer_suggestions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["overall_assessment", "takeaways"]
+}
