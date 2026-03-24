@@ -1,0 +1,24 @@
+[
+  {
+    "school_id": "hec-paris",
+    "school_name": "HEC Paris",
+    "country": "France",
+    "ranking_note": "Top European business school",
+    "general_values": [
+      "leadership",
+      "international mindset",
+      "intellectual rigor",
+      "career clarity"
+    ],
+    "interview_tone": [
+      "professional",
+      "structured",
+      "probing"
+    ],
+    "example_question_style": [
+      "Walk me through your reasoning.",
+      "Why this program specifically?",
+      "What evidence supports your decision?"
+    ]
+  }
+]
